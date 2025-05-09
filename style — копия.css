@@ -269,5 +269,43 @@ footer {
     .program .schedule {
         font-size: 1em;
     }
+    .qr-code {
+        max-width: 150px; 
+    }
 }
+
+.online-stream {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f4f4f4; 
+}
+
+.online-stream .container {
+    width: 70%; 
+    margin: auto;
+}
+
+.online-stream .section-title {
+    color: #000; 
+    margin-bottom: 20px;
+}
+
+.online-stream p {
+    font-size: 1.2em;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+/* QR Code Styling */
+.qr-code-container {
+    margin-top: 20px;
+}
+
+.qr-code {
+    max-width: 200px; /* Ограничение размера QR-кода */
+    height: auto;
+    border: 5px solid #fff; /* Белая рамка вокруг QR-кода */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для выделения */
+}
+
 
